@@ -1,0 +1,34 @@
+
+05.png
+size: 1639,917
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangao
+  rotate: false
+  xy: 1056, 234
+  size: 293, 681
+  orig: 293, 681
+  offset: 0, 0
+  index: -1
+shouz
+  rotate: false
+  xy: 1351, 239
+  size: 242, 346
+  orig: 242, 346
+  offset: 0, 0
+  index: -1
+tangc
+  rotate: true
+  xy: 1351, 587
+  size: 328, 286
+  orig: 330, 288
+  offset: 1, 1
+  index: -1
+图层 2
+  rotate: false
+  xy: 2, 2
+  size: 1052, 913
+  orig: 1054, 915
+  offset: 1, 1
+  index: -1

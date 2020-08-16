@@ -1,0 +1,87 @@
+﻿{
+"skeleton": {
+	"hash": "mchrV9GJaG+ZGCdqBWiJq+SJq5E",
+	"spine": "3.8.33-beta",
+	"x": -1,
+	"y": -619,
+	"width": 1054,
+	"height": 620,
+	"images": "./s1/闹钟响起/",
+	"audio": "C:/Users/Administrator/Desktop/游戏素材/s1"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "ling", "parent": "root", "x": 682.52, "y": -110.59 },
+	{ "name": "xiantiao", "parent": "root", "x": 489.28, "y": -340.94 },
+	{ "name": "naozhong", "parent": "root", "x": 487.4, "y": -424.33 }
+],
+"slots": [
+	{ "name": "beij", "bone": "root", "attachment": "beij" },
+	{ "name": "naozhong", "bone": "naozhong", "attachment": "naozhong" },
+	{ "name": "xiantiao", "bone": "xiantiao", "attachment": "xiantiao" },
+	{ "name": "ling", "bone": "ling", "attachment": "ling" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"xiantiao": {
+				"xiantiao": { "x": 15.72, "y": 108.94, "width": 460, "height": 196 }
+			},
+			"naozhong": {
+				"naozhong": { "x": -2.9, "y": 68.83, "width": 135, "height": 157 }
+			},
+			"beij": {
+				"beij": { "x": 526, "y": -309, "width": 1054, "height": 620 }
+			},
+			"ling": {
+				"ling": { "x": 34.98, "y": 6.09, "width": 165, "height": 63 }
+			}
+		}
+	}
+],
+"animations": {
+	"naozhongxiang": {
+		"slots": {
+			"ling": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2667, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.4333, "color": "fffffffe" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"naozhong": {
+				"rotate": [
+					{ "angle": 6.28 },
+					{ "time": 0.3333, "angle": -6.97 },
+					{ "time": 0.6667, "angle": 6.28 }
+				],
+				"translate": [
+					{ "y": 7.17 },
+					{ "time": 0.1667, "y": 1.49 },
+					{ "time": 0.3333, "y": 6.03 },
+					{ "time": 0.5, "y": 1.49 },
+					{ "time": 0.6667, "y": 7.17 }
+				],
+				"scale": [
+					{ "y": 1.123 },
+					{ "time": 0.1667, "x": 1.104, "y": 0.995 },
+					{ "time": 0.3333, "y": 1.123 },
+					{ "time": 0.5, "x": 1.104, "y": 0.995 },
+					{ "time": 0.6667, "y": 1.123 }
+				]
+			},
+			"xiantiao": {
+				"scale": [
+					{ "x": 0.738, "y": 0.738 },
+					{ "time": 0.3333, "x": 1.284, "y": 1.212 },
+					{ "time": 0.6667, "x": 0.738, "y": 0.738 }
+				]
+			}
+		}
+	}
+}
+}
